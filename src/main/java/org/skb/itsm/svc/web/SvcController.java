@@ -27,7 +27,7 @@ public class SvcController {
 	 @RequestMapping(path = "/getSvc")
 	 public Map<String, Object> getSvc(@RequestParam int page,String skey,String sval) throws Exception {
 	       
-		 System.out.println(page+"~~~~~~~~~"+sval+"!");
+		 System.out.println(page+"~~~~~~~~~"+sval+"!aa");
 		 	Map<String, Object> map = new HashMap<String, Object>();
 			
 			PageHelper pageHelper = new PageHelper(page,10);
